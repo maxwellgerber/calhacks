@@ -14,12 +14,12 @@
   margin: 10px;
 }
 
-
 .jumbotron {
   background-image:url('../images/banner.jpg');
-  height: 500px;
+  height: 400px;
   background-repeat: no-repeat;
   background-size: cover;
+  border-bottom: :3px solid #dbdbdb;
 }
 
 .jumbotron .container {
@@ -39,28 +39,12 @@
   color: #fff;
 }
 
+#content{
+  padding-top: 80px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
 body{
   background-color:#3498db;
-}
-
-.game {
-  position: relative;
-  padding: 15px;
-  top:80px;
-  left:10%;
-  width:80%;
-  height:500px;
-  background-color: #C0CCCF;
-  border-radius: 25px;
-  border: 2px solid #A6B0B3;
-
-}
-.game p{
-  text-align: center !important;
-}
-
-.player{
-  padding: 10px;
-  display: inline;
-  
 }

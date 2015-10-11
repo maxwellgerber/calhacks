@@ -5,10 +5,12 @@
   	<title>Play</title>
     <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">
     <link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
+    <link rel="stylesheet" href="./css/template.css">
     <link rel="stylesheet" href="./css/play.css">
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
-    <script type="text/javascript" src="./js/main.js"></script>
-    
+    <script type="text/javascript" src="./js/template.js"></script>
+    <script type="text/javascript" src="./js/play.js"></script>
+    <link rel="icon" type="image/png" href="https://bitcoin.org/favicon.png">
   </head>
 
   <body>
@@ -26,11 +28,24 @@
     </div>
 
     <div class="game">
-    	<div class="player">
-    		<h4>Player 0</h4>
-    	</div>
+      <div class="center-block">
+        <div class="player">
+          <h4>Current Bet</h4>
+            <form class="form-inline">
+              <fieldset>
+              <div class="form-group">
+                  <label for="num">Number</label>
+                <input type="number" class="form-control cursor" id="num" placeholder="#" readonly>
+          </div>
+          <div class="form-group">
+                <label for="count">Count</label>
+                <input type="number" class="form-control cursor" id="count" placeholder="0" readonly>
+          </div>
+          </fieldset>
+        </form>
+      </div>'
+      </div>
     </div>
-
    
   </body>
 </html>

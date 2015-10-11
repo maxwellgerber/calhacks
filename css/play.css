@@ -1,47 +1,3 @@
-.nav {
-  color: #5a5a5a;
-  font-size: 11px;
-  font-weight: bold;
-  padding-bottom: 2px;
-  height: 45px;
-  text-transform: uppercase;
-  background-color: #ecf0f1;
-  border-bottom:2px solid #dbdbdb;
-}
-
-.nav li {
-  display: inline;
-  margin: 10px;
-}
-
-
-.jumbotron {
-  background-image:url('../images/banner.jpg');
-  height: 500px;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.jumbotron .container {
-  position: relative;
-  top:100px;
-}
-
-.jumbotron h1 {
-  color: #fff;
-  font-size: 48px;  
-  font-family: 'Shift', sans-serif;
-  font-weight: bold;
-}
-
-.jumbotron p {
-  font-size: 20px;
-  color: #fff;
-}
-
-body{
-  background-color:#3498db;
-}
 
 .game {
   position: relative;
@@ -49,7 +5,6 @@ body{
   top:80px;
   left:10%;
   width:80%;
-  height:500px;
   background-color: #C0CCCF;
   border-radius: 25px;
   border: 2px solid #A6B0B3;
@@ -62,5 +17,13 @@ body{
 .player{
   padding: 10px;
   display: inline;
-  
+  width:120px;
+}
+
+.center-block{
+  padding: 30px;
+}
+
+.cursor{
+  cursor: default !important;
 }
