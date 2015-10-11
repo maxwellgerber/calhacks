@@ -15,13 +15,13 @@
 }
 
 .player{
-  padding: 10px;
   display: inline;
   width:120px;
 }
 
 .center-block{
-  padding: 30px;
+  padding: 40px;
+  text-align: center;
 }
 
 .cursor{

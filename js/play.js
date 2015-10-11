@@ -16,7 +16,7 @@ function Player(i){
 
 function generateString(i){
 	var shit = '<div class="player">\
-    			<h4>Player '+(i)+'</h4>\
+    			<h4> '+(i)+'</h4>\
        			<form class="form-inline">\
        				<fieldset>\
        				<div class="form-group">\
